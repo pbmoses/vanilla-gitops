@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    environment: testing
+  annotations:
+    openshift.io/description: "argo-test"
+    openshift.io/display-name: "argo-test"
+    testing: true-pmo
+  name: argo-test 
