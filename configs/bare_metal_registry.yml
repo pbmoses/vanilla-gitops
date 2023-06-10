@@ -3,8 +3,9 @@ kind: Config
 metadata:
   name: cluster
 spec:
+  defaultRoute: true
   logLevel: Normal
-  managementState: Managed 
+  managementState: Removed 
   observedConfig: null
   operatorLogLevel: Normal
   proxy: {}
