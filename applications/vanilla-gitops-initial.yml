@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: boostraptest
+  name: default-boostrap 
   namespace: openshift-gitops
 spec:
   destination:
