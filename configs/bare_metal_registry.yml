@@ -3,7 +3,6 @@ kind: Config
 metadata:
   name: cluster
 spec:
-  defaultRoute: true
   logLevel: Normal
   managementState: Removed 
   observedConfig: null
